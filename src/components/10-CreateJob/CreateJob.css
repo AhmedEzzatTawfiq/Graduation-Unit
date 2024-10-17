@@ -1,0 +1,95 @@
+.i-wrapper .info {
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+}
+
+.i-wrapper .info .second-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    border: 1px solid#000;
+    color: #000;
+    position: relative;
+    gap: 1rem;
+    width: 27rem;
+    height: 42rem;
+    margin: 1rem 0;
+    padding: 1.2rem 1.3rem;
+}
+
+
+/* Header styles */
+
+.i-wrapper .info .second-h .header {
+    text-align: center;
+}
+
+.i-wrapper .info .second-h .header h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+
+
+/* Input field styles */
+
+.i-wrapper .info .second-h .input-field {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 2rem;
+    width: 20rem;
+}
+
+.i-wrapper .info .second-h .form-group {
+    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.i-wrapper .info .second-h .form-group label {
+    color: #0f0a0a9b;
+}
+
+.i-wrapper .info .second-h .form-groupp {
+    width: 100%;
+}
+
+
+/* Submit button styles */
+
+.i-wrapper .info .second-h .submit-button {
+    background-color: blue;
+    color: white;
+    padding: 0.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.i-wrapper .info .second-h .submit-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 800px) {
+    .i-wrapper .info .second-h {
+        width: 25rem;
+    }
+    .i-wrapper .info .second-h {
+        width: 25rem;
+        height: 42rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .i-wrapper .info .second-h {
+        width: 20rem;
+    }
+    .i-wrapper .info .second-h {
+        width: 20rem;
+    }
+    .i-wrapper .info .second-h .input-field {
+        width: 70%;
+    }
+}

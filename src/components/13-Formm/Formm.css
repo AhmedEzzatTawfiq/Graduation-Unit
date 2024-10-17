@@ -1,0 +1,142 @@
+.iii-wrapper .info .second-h .form-group {
+    position: relative;
+}
+
+.iiii-wrapper a .icon-arrow-left2 {
+    background-color: #000;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    margin: 2rem;
+    display: flex;
+    width: 1.6rem;
+    height: 1.6rem;
+    justify-content: center;
+}
+
+.iiii-wrapper .arrow {
+    justify-content: space-between;
+}
+
+.iiii-wrapper .info .second-h .form-group .icon-download {
+    position: absolute;
+    right: 9rem;
+    bottom: 1.1rem;
+    color: #0056b3;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.iiii-wrapper .info .second-h .form-group .icon-download {
+    position: absolute;
+    right: 10rem;
+    bottom: 7.1rem;
+    color: #0056b3;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.iiii-wrapper .info {
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+}
+
+.iiii-wrapper .info .second-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    border: 1px solid#000;
+    color: #000;
+    position: relative;
+    gap: 1rem;
+    width: 27rem;
+    height: 36rem;
+    margin: 1rem 0;
+    padding: 1.2rem 1.3rem;
+    margin: 6rem 0;
+}
+
+
+/* Header styles */
+
+.iiii-wrapper .info .second-h .header {
+    text-align: center;
+}
+
+.iiii-wrapper .info .second-h .header h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+
+
+/* Input field styles */
+
+.iiii-wrapper .info .second-h .input-field {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 2rem;
+    width: 20rem;
+}
+
+.iiii-wrapper .info .second-h .form-group {
+    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.iiii-wrapper .info .second-h .form-group label {
+    color: #0f0a0a9b;
+}
+
+.iiii-wrapper .info .second-h .form-groupp {
+    width: 100%;
+}
+
+.loader {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+
+/* Submit button styles */
+
+.iiii-wrapper .info .second-h .submit-button {
+    background-color: blue;
+    color: white;
+    padding: 0.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.iiii-wrapper .info .second-h .submit-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 800px) {
+    .iiii-wrapper .info .second-h {
+        width: 25rem;
+    }
+    .iiii-wrapper .info .second-h {
+        width: 25rem;
+        height: 36rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .iiii-wrapper .info .second-h {
+        width: 20rem;
+    }
+    .iiii-wrapper .info .second-h {
+        width: 20rem;
+    }
+    .iiii-wrapper .info .second-h .input-field {
+        width: 80%;
+    }
+}

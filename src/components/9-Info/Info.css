@@ -1,0 +1,141 @@
+.ii-wrapper .info {
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+}
+
+.ii-wrapper .info .second-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    border: 1px solid#000;
+    color: #000;
+    position: relative;
+    gap: 1rem;
+    width: 28rem;
+    height: 36rem;
+    margin: 3rem 0;
+    padding: 1.2rem 1.3rem;
+}
+
+
+/* Header styles */
+
+.ii-wrapper .info .second-h .header {
+    text-align: center;
+}
+
+.ii-wrapper .info .second-h .header h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1.7rem;
+}
+
+
+/* Input field styles */
+
+.ii-wrapper .info .second-h .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 1rem;
+}
+
+.ii-wrapper .info .second-h .form-group {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+}
+
+.ii-wrapper .info .second-h .form-group textarea {
+    height: 6rem;
+    resize: none;
+}
+
+.ii-wrapper .info .second-h .flex {
+    width: 24rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.ii-wrapper .info .second-h .flex .input-field {
+    width: 70%;
+}
+
+.ii-wrapper .info .second-h .form-group .first-input {
+    gap: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    align-self: flex-start;
+}
+
+.ii-wrapper .info .second-h .form-group .addlogo {
+    gap: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-self: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.ii-wrapper .info .second-h .form-group .addlogo .icon-download {
+    font-size: 2.3rem;
+    font-weight: 100;
+}
+
+.ii-wrapper .info .second-h .form-group label {
+    color: #0f0a0a9b;
+}
+
+.ii-wrapper .info .second-h .form-groupp {
+    width: 100%;
+}
+
+
+/* Submit button styles */
+
+.ii-wrapper .info .second-h .submit-button {
+    background-color: blue;
+    color: white;
+    padding: 0.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.4rem;
+}
+
+.ii-wrapper .info .second-h .submit-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 500px) {
+    .ii-wrapper .info .second-h {
+        width: 20rem;
+        height: 41rem;
+    }
+    .ii-wrapper .info .second-h .input-field {
+        width: 93%;
+    }
+    .ii-wrapper .info .second-h .flex .input-field {
+        width: 93%;
+    }
+    .ii-wrapper .info .second-h .flex {
+        width: 17rem;
+        flex-direction: column;
+    }
+    .ii-wrapper .info .second-h .form-group .first-input {
+        width: 17rem;
+    }
+    .ii-wrapper .info .second-h .form-group {
+        width: 17rem;
+    }
+    .ii-wrapper .info .second-h .form-group .addlogo {
+        align-self: flex-end;
+    }
+}

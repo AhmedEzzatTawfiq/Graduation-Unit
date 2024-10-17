@@ -1,0 +1,113 @@
+.u-wrapper {
+    flex-direction: column;
+}
+
+.u-wrapper .unit {
+    background-color: rgba(14, 13, 13, 0.7);
+    margin-top: 8.1rem;
+    margin-bottom: 15rem;
+    border-radius: 13px;
+    width: 60%;
+    padding: 1rem;
+    border: 2px solid#000;
+}
+
+.about-unit {
+    background-color: rgba(14, 13, 13, 0.7);
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fff;
+    gap: 0.2rem;
+}
+
+.about-unit h4 {
+    font-size: 1.1rem;
+}
+
+.about-unit button {
+    font-size: 0.8rem;
+}
+
+.about-unit .white-line {
+    width: 7rem;
+    background-color: #fff;
+    height: 0.1rem;
+    border-radius: 3px;
+}
+
+.bottom {
+    gap: 2rem;
+}
+
+.u-wrapper .unit .top {
+    justify-content: space-between;
+}
+
+.u-wrapper .unit .top>div {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.u-wrapper .unit h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.u-wrapper .unit p {
+    font-size: 1.1rem;
+}
+
+.u-wrapper .unit .left-side {
+    width: 50%;
+    height: 17rem;
+}
+
+.u-wrapper .unit .right-side {
+    width: 50%;
+    height: 17rem;
+}
+
+.u-wrapper .unit .right-side p {
+    margin-top: 1.5rem;
+}
+
+.white-line {
+    width: 0.3rem;
+    background-color: #fff;
+    height: 19rem;
+    border-radius: 3px;
+}
+
+@media (max-width: 1000px) {
+    .u-wrapper .unit {
+        width: 90%;
+    }
+}
+
+@media (max-width: 660px) {
+    .u-wrapper .unit .right-side {
+        height: 24rem;
+    }
+    .u-wrapper .unit .left-side {
+        height: 24rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .u-wrapper .unit {
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px) {
+    .bottom {
+        gap: 0.4rem;
+    }
+    .u-wrapper .unit {
+        padding: 0.2rem;
+    }
+}

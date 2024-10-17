@@ -1,0 +1,317 @@
+.gf-wrapper {}
+
+.gf-wrapper .gform {
+    width: 100%;
+    padding: 1rem 1rem;
+    color: #000;
+    border: none;
+    z-index: 8;
+    direction: ltr;
+    flex-direction: column;
+    gap: 1rem;
+    border: none;
+}
+
+.gf-wrapper .gform .head {
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+.gf-wrapper .gform .under .img {
+    background-color: #666;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 5rem;
+    left: -1rem;
+    top: 3rem;
+}
+
+.gf-wrapper .gform .under {
+    justify-content: space-between;
+    align-items: start;
+    width: 60%;
+    position: relative;
+}
+
+.gf-wrapper .gform .under form {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.gf-wrapper .gform .under form .flex {
+    gap: 3rem;
+}
+
+.gf-wrapper .gform .under form .last {
+    align-items: flex-end;
+    width: 80%;
+}
+
+.gf-wrapper .gform .under form .last .cv {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: start;
+    width: 10rem;
+}
+
+.gf-wrapper .gform .under form .born {
+    align-items: flex-end;
+}
+
+.gf-wrapper .gform .under form .flex>div {
+    width: 50%;
+}
+
+.gf-wrapper .gform .under form .if-work>div {
+    width: 80%;
+}
+
+.gf-wrapper .gform .under form .if-work>p {
+    width: 20%;
+}
+
+.gf-wrapper .gform .under label {
+    color: #000;
+}
+
+.gf-wrapper .gform .under input::placeholder {
+    color: #8d8484;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.gf-wrapper .gform .head>a {
+    color: #fff;
+}
+
+.gf-wrapper .gform .head img {
+    width: 5rem;
+}
+
+.gf-wrapper .gform .head>a {
+    background-color: blue;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 0.2rem;
+    border-radius: 50%;
+    z-index: 3;
+    cursor: pointer;
+    color: #000;
+    color: #fff;
+    margin: 0.4rem;
+}
+
+.gf-wrapper .gform .cv {
+    position: relative;
+}
+
+.gf-wrapper .gform .cv input {
+    cursor: pointer;
+}
+
+.gf-wrapper .gform .icon-upload {
+    position: absolute;
+    bottom: 0.6rem;
+    left: 8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* photo */
+
+.file-upload-button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    /* optional: add border for better visibility */
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 10px;
+    /* Adjust as needed */
+}
+
+
+/* Header styles */
+
+.gf-wrapper .gform .under .header {
+    text-align: center;
+}
+
+.gf-wrapper .gform .under .header h1 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 100;
+    color: #0056b3;
+}
+
+
+/* Submit button styles */
+
+.gf-wrapper .gform .submit-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 0.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin: 3rem 0 1rem 0;
+}
+
+.gf-wrapper .gform .submit-button:hover {
+    background-color: #000cb3;
+}
+
+
+/*select*/
+
+.gf-wrapper .gform .form-group .custom-select {
+    position: relative;
+    width: 100%;
+}
+
+.first-option {
+    display: none;
+}
+
+
+/* Style the dropdown menu */
+
+.gf-wrapper .gform .form-group .custom-select select {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* Style the dropdown menu options */
+
+.custom-select select option {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Style when the select is focused */
+
+.custom-select select:focus {
+    outline: none;
+    border-color: #000;
+}
+
+
+/* Radio */
+
+.gender-label {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 0.2rem;
+}
+
+.gender-options {
+    margin-top: 5px;
+}
+
+.gender-options input[type="radio"] {
+    display: none;
+}
+
+.gender-options label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.gender-options label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.gender-options input[type="radio"]:checked+label::before {
+    background-color: black;
+}
+
+
+/* media*/
+
+@media (max-width: 1000px) {
+    .gf-wrapper .gform .under {
+        width: 80%;
+    }
+    .gf-wrapper .gform .under form .flex {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .gf-wrapper .gform .under {
+        width: 90%;
+    }
+    .gf-wrapper .gform .under form .flex {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .gf-wrapper .gform .under form .namee {
+        flex-direction: column;
+    }
+    .gf-wrapper .gform .under form .g-info {
+        flex-direction: column;
+    }
+    .gf-wrapper .gform .under form .flex>div {
+        width: 100%;
+    }
+    .gf-wrapper .gform .under form .job {
+        flex-direction: column;
+    }
+    .gf-wrapper .gform .under form .last {
+        align-items: flex-end;
+        width: 100%;
+    }
+    .gf-wrapper .gform .under form .last>div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .gf-wrapper .gform .under {
+        width: 96%;
+    }
+    .gf-wrapper .gform .under form .last .cv {
+        width: 70%;
+    }
+    .gf-wrapper .gform .icon-upload {
+        left: 9.5rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .gf-wrapper .gform .icon-upload {
+        left: 8.5rem;
+    }
+}

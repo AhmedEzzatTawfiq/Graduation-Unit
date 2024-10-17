@@ -1,0 +1,107 @@
+.t-wrapper .train {
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+    padding: 1rem 0;
+}
+
+.t-wrapper .train .first-h .about-unit {
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid #555;
+    background-color: rgba(42, 30, 30, 0.52);
+}
+
+.t-wrapper .train .second-h {
+    width: 28rem;
+    padding-bottom: 3rem;
+}
+
+.t-wrapper .train .third-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    color: #000;
+    width: 28rem;
+    height: 37rem;
+}
+
+.t-wrapper .train .second-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    color: #000;
+}
+
+.t-wrapper .train .second-h button {
+    background-color: #3a44b2;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 0.2rem 2rem 0.6rem 2rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.t-wrapper .train .second-h>h3>a {
+    color: rgb(39, 39, 143);
+}
+
+.t-wrapper .train .second-h>a {
+    color: rgb(39, 39, 143);
+}
+
+.t-wrapper .train .third-h .content {
+    gap: 0rem;
+    flex-direction: column;
+    align-items: start;
+    width: 23rem;
+}
+
+.t-wrapper .train .third-h .content>div {
+    justify-content: space-between;
+    width: 23rem;
+    gap: 2rem;
+}
+
+.t-wrapper .train .third-h .content>div>h4 {
+    align-self: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.t-wrapper .train .third-h .content>div>h4>p {
+    align-self: center;
+    font-weight: 300;
+    padding: 0.2rem 0;
+}
+
+@media (max-width: 800px) {
+    .t-wrapper .train .second-h {
+        width: 25rem;
+    }
+    .t-wrapper .train .third-h {
+        width: 25rem;
+        height: 37rem;
+    }
+    .t-wrapper .train .second-h a {
+        width: 19rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .t-wrapper .train .second-h {
+        width: 20rem;
+    }
+    .t-wrapper .train .third-h {
+        width: 20rem;
+        height: 37rem;
+    }
+    .t-wrapper .train .second-h a {
+        width: 19rem;
+    }
+    .t-wrapper .train .third-h .content>div {
+        width: 18rem;
+    }
+    .t-wrapper .train .third-h .content>div>h4 {
+        align-self: center;
+    }
+    .t-wrapper .train .third-h .content {
+        padding-right: 3rem;
+    }
+}

@@ -1,0 +1,25 @@
+.error > ul {
+    padding: 20px;
+    background-color: blue;
+}
+
+.error {
+  color: #fff;
+  background-color: red;
+  padding: 8px 9px;
+  margin: 5px 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.loader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+}

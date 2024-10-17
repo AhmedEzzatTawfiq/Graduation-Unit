@@ -1,0 +1,130 @@
+.e-wrapper .event {
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+    padding: 1rem 0;
+}
+
+.e-wrapper .first-h .about-unit {
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid #555;
+    background-color: rgba(42, 30, 30, 0.52);
+}
+
+.event .title {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event .title img {
+    width: 10rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin-top: 2rem;
+}
+
+.event .third-h .title img {
+    width: 7rem;
+}
+
+.e-wrapper .event .second-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    border: 1px solid#000;
+    color: #000;
+    position: relative;
+    gap: 1rem;
+    width: 35rem;
+    height: 28rem;
+}
+
+.e-wrapper .event .second-h .content {
+    padding: 0;
+    justify-content: start;
+    align-items: end;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    direction: ltr;
+}
+
+.e-wrapper .event .third-h .content {
+    padding: 0;
+    justify-content: start;
+    align-items: end;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    direction: ltr;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.e-wrapper .event .content a {
+    align-self: center;
+    border-bottom: 1px solid #555;
+    margin: 1rem 0;
+}
+
+.e-wrapper .event .content h4 {
+    background-color: #0707cd;
+    color: #fff;
+    width: 13rem;
+    text-align: center;
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0.2rem 0 0.4rem 0;
+}
+
+.e-wrapper .event .third-h .content .small {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.e-wrapper .event .third-h {
+    background-color: rgba(245, 243, 243, 0.82);
+    border: 1px solid#000;
+    color: #000;
+    position: relative;
+    gap: 1rem;
+    width: 35rem;
+    height: 33rem;
+}
+
+.e-wrapper .event .third-h .title {
+    gap: 0;
+}
+
+.e-wrapper .event .third-h .title h2 {
+    color: #0707cd;
+}
+
+.e-wrapper .event .third-h .title h4 {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.e-wrapper .event .third-h p {
+    text-align: center;
+    color: #444;
+}
+
+@media (max-width: 800px) {
+    .e-wrapper .event .second-h {
+        width: 25rem;
+    }
+    .e-wrapper .event .third-h {
+        width: 25rem;
+        height: 35rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .e-wrapper .event .second-h {
+        width: 20rem;
+    }
+    .e-wrapper .event .third-h {
+        width: 20rem;
+    }
+}

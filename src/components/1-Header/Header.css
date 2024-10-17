@@ -1,0 +1,26 @@
+.h-wrapper .header {
+    justify-content: space-between;
+    gap: 2rem;
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: 0.4rem 1rem 0.5rem 1rem;
+    background-color: rgba(14, 13, 13, 0.6);
+}
+
+.right-side nav ul {
+    gap: 1.8rem;
+}
+
+.h-wrapper .header h2 {
+    font-size: 1.3rem;
+}
+
+.h-wrapper .header span {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    justify-content: center;
+    margin-right: 0.5rem;
+}

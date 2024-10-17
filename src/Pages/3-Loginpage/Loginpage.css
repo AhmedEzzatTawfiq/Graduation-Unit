@@ -1,0 +1,156 @@
+.l-wrapper .login {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    color: #000;
+    border: none;
+    z-index: 8;
+}
+
+.l-wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.l-wrapper:before {
+    content: "";
+    position: absolute;
+    height: 1500px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg, #0707cd 0%, #FFA500 100%);
+    border-radius: 50%;
+}
+
+.l-wrapper .login .head {
+    justify-content: space-between;
+    align-items: start;
+}
+
+.l-wrapper .login .head>a {
+    color: #fff;
+}
+
+.l-wrapper .login .head img {
+    width: 6rem;
+}
+
+.l-wrapper .login .head>a {
+    background-color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 0.2rem;
+    border-radius: 50%;
+    z-index: 3;
+    cursor: pointer;
+    color: #000;
+}
+
+.input-field {
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+}
+
+.input-field>div {
+    padding: 0 0 0.3rem 0.2rem;
+}
+
+.l-wrapper .login .under {
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+.l-wrapper .login .under .right-side {
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.l-wrapper .login .under .right-side form {
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.l-wrapper .login .under .right-side form input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    width: 12rem;
+}
+
+.l-wrapper .login .under .right-side form input::placeholder {
+    color: #000;
+}
+
+.l-wrapper .login .under .right-side form button {
+    background-color: #0707cd;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.2rem 3rem 0.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.l-wrapper .login .under .right-side form h6 {
+    font-size: 0.7rem;
+}
+
+.l-wrapper .login .under .left-side .graduate {
+    width: 17rem;
+    height: 17rem;
+    z-index: 10;
+}
+
+.l-wrapper .login .under .right-side img {
+    width: 12rem;
+    height: 12rem;
+    padding: 0.3rem;
+}
+
+.loader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+@media (max-width: 1100px) {
+    .l-wrapper .login .under {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .l-wrapper .login .under {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .l-wrapper .login .under {
+        gap: 0rem;
+    }
+}
+
+@media (max-width: 555px) {
+    .l-wrapper .login .under .right-side form input {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .l-wrapper .login .under .left-side {
+        display: none;
+    }
+    .l-wrapper .login .under {
+        /* justify-content: start; */
+        padding-right: 0.4rem;
+    }
+}
